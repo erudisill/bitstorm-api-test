@@ -6,7 +6,7 @@ This is bitstorm
 
 ## Usage
 
-It's node.
+It's nodejs application.
 
 ## Developing
 
