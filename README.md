@@ -2,15 +2,15 @@
 
 # bitstorm
 
-
+This is bitstorm
 
 ## Usage
 
-
+It's node.
 
 ## Developing
 
-
+Keep it up!
 
 ### Tools
 
