@@ -7,7 +7,7 @@ var server = restify.createServer();
 server.use(restify.gzipResponse());
 server.use(restify.bodyParser());
 
-mongo.connect('mongodb://localhost:27017/bitstorm?w=1', function(err, db) {
+mongo.connect('mongodb://localhost:27017/bitstorm?w=0', function(err, db) {
 	if (err)
 		throw err;
 
