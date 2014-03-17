@@ -20,6 +20,12 @@ at the remote site will intelligently batch communication to offset the TCP/HTTP
 Development is ongoing, and this is just a test api to get used to Linux-based development, Node.js, MongoDb,
 and development software on a Mac.
 
+### Prerequisites
+
+* A system user named 'bitstorm' should be created. No shell/home directory is necessary. This is the
+  user that the upstart service runs the application as via sudo.
+* MongoDb should already be installed. Currently, the application points to localhost.
+
 ### Tools
 
 Development is done on a Mac using [TextMate](http://http://macromates.com/).
